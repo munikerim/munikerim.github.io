@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыс - IT Аутсорсинг Компаниясы</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-blue-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">TechBridge</a>
+            <div class="space-x-4">
+                <a href="index.html" class="hover:text-blue-200">Басты бет</a>
+                <a href="services.html" class="hover:text-blue-200">Қызметтер</a>
+                <a href="about.html" class="hover:text-blue-200">Біз туралы</a>
+                <a href="contact.html" class="hover:text-blue-200">Байланыс</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto py-8 px-4">
+        <section class="mb-12 text-center">
+            <h1 class="text-3xl font-bold mb-4 text-blue-800">Бізбен Байланысыңыз</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">IT қажеттіліктеріңіз бойынша біздің командамен хабарласыңыз.</p>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-700">Хабарлама Жіберіңіз</h2>
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 mb-2">Атыңыз</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 mb-2">Электрондық пошта</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 mb-2">Хабарламаңыз</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition duration-300 w-full">Хабарлама жіберу</button>
+                </form>
+            </div>
+            
+            <div>
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Байланыс Ақпараттары</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <span class="text-blue-600 mr-3">📍</span>
+                        <div>
+                            <h3 class="font-semibold">Кеңсе Мекенжайы</h3>
+                            <p class="text-gray-600">Абылай хан көшесі, 150/250 үй, Алматы қ, Қазақстан</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="text-blue-600 mr-3">📞</span>
+                        <div>
+                            <h3 class="font-semibold">Телефон</h3>
+                            <p class="text-gray-600">+7 (707) 018-4620</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="text-blue-600 mr-3">✉️</span>
+                        <div>
+                            <h3 class="font-semibold">Электрондық пошта</h3>
+                            <p class="text-gray-600">mkerimbekkyzy@techbridge.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="text-blue-600 mr-3">🕒</span>
+                        <div>
+                            <h3 class="font-semibold">Жұмыс Уақыты</h3>
+                            <p class="text-gray-600">Дүйсенбі - Жұма: 9:00 - 19:00</p>
+                            <p class="text-gray-600">Төтенше жағдайлар үшін тәулік бойы қолдау көрсетіледі</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 IT Аутсорсинг Компаниясы. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
+</body>
+</html>
